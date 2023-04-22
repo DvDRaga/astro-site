@@ -1,0 +1,11 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Clock from "../components/Clock.svelte";
+---
+
+<MainLayout title="Home">
+	<h1 class="text-center text-2xl pt-8 font-black">
+		Hello World!!
+	</h1>
+	<Clock client:visible/>
+</MainLayout>
